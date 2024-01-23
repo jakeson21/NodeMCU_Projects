@@ -8,7 +8,7 @@
 #define DEBUGPRINT
 #define DEV 3
 
-#undef DEBUGPRINT
+//#undef DEBUGPRINT
 
 #define BUF_LEN 32
 uint8_t __attribute__((aligned(4))) rxDataBuf[BUF_LEN];
